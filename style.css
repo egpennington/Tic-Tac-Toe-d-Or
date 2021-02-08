@@ -1,0 +1,30 @@
+/* styles sheet for Tic-Tac-Toe-d'Or */
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  width: 610px;
+  height: 610px;
+  background-color: black;
+
+}
+
+.grid div {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+.playerX {
+  background-image: url('cross.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.player0 {
+  background-image: url('circle.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
